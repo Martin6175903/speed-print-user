@@ -1,0 +1,73 @@
+html {
+    background: #62639b;
+}
+
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.test {
+    padding: 30px 15px 30px 45px;
+    border-radius: 10px;
+    background: #fff;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.test__title {
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.test__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.test__text {
+    text-align: justify;
+    flex-basis: 75%;
+}
+
+.test__state {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    font-size: 18px;
+}
+
+.test__state-container {
+    margin-bottom: 20px;
+}
+
+.test__state-title {
+    font-weight: 500;
+}
+
+.test__state-speed, .test__state-accuracy, .test__state-errors {
+    color: #62639b;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.test__state-start {
+    padding: 15px 25px;
+    border-radius: 8px;
+    background: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    color: #62639b;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    border: 3px solid #62639b;
+}
+
+.test__state-start:hover {
+    background: #62639b;
+    transition: background 0.4s;
+    color: #fff;
+}
