@@ -30,6 +30,16 @@ html {
 .test__text {
     text-align: justify;
     flex-basis: 75%;
+    user-select: none;
+}
+
+.test__text-print--before {
+    background: darkgrey;
+}
+
+.test__text-print--focus {
+    background-color: #05a005;
+    color: #fff;
 }
 
 .test__state {
