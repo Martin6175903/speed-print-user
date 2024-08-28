@@ -34,7 +34,7 @@ html {
 }
 
 .test__text-print--before {
-    background: darkgrey;
+    color: #05a005;
 }
 
 .test__text-print--focus {
@@ -55,6 +55,17 @@ html {
 
 .test__state-title {
     font-weight: 500;
+    position: relative;
+    padding-left: 35px;
+}
+
+.test__state-icon-accuracy, .test__state-icon-error {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 22px;
+    height: 22px;
 }
 
 .test__state-speed, .test__state-accuracy, .test__state-errors {
