@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+    .test__inner {
+        flex-direction: column;
+    }
+    .test__text {
+        margin-bottom: 25px;
+    }
+    .test__state {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .test__state-container {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .test__state {
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+    }
+    .test__state-start {
+        width: 50%;
+    }
+}
+
+@media (max-width: 450px) {
+    .test {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .test__state {
+        justify-content: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .test__state-start {
+        width: 100%;
+    }
+}

@@ -32,16 +32,25 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 80%;
+    width: 100%;
 }
 
-.modal__result-accuracy, .modal__result-errors {
+.modal__result-accuracy, .modal__result-errors, .modal__result-speed {
     padding: 20px;
     background: #158078;
     border-radius: 5px;
     box-shadow: 0 0 5px #158078;
     color: #fff;
     text-align: center;
+    flex-basis: 20%;
+}
+
+.modal__result-speed>span {
+    display: block;
+}
+
+.modal__result-speed>span:nth-child(n+2) {
+    display: inline;
 }
 
 .modal__result-accuracy>span {
